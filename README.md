@@ -2,7 +2,7 @@
 The simple router for React.
 
 # Installation
-``
+`npm install --save rubel-router`
 
 # Example
 `cd rubel-router/example/`
