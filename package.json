@@ -1,0 +1,33 @@
+{
+  "name": "rubel-router",
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "history-api",
+    "path-to-regexp",
+    "router"
+  ],
+  "description": "The simple router for React.",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmf-san/rubel-router.git"
+  },
+  "author": "bmf-san",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bmf-san/rubel-router/issues"
+  },
+  "homepage": "https://github.com/bmf-san/rubel-router#readme",
+  "devDependencies": {
+    "path-to-regexp": "^2.1.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
