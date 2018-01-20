@@ -1,6 +1,6 @@
 {
   "name": "rubel-router",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "keywords": [
     "react",
     "history-api",
@@ -8,7 +8,7 @@
     "router"
   ],
   "description": "The simple router for React.",
-  "main": "./src/index.js",
+  "main": "./lib/index.js",
   "directories": {
     "example": "example"
   },
