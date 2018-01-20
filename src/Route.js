@@ -32,4 +32,4 @@ class Route extends Component {
   }
 }
 
-export default Route;
+// export default Route;

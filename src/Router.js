@@ -36,4 +36,4 @@ class Router extends Component {
   }
 }
 
-export default Router;
+// export default Router;
