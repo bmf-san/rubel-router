@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import toRegex from 'path-to-regexp';
 
-class Router extends Component {
+export default class Router extends Component {
   handleComponent() {
     const routes = this.props.routes;
     const info = this.props.info;
@@ -35,5 +35,3 @@ class Router extends Component {
     return (this.handleComponent());
   }
 }
-
-export default Router;
