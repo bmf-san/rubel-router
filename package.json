@@ -1,6 +1,6 @@
 {
   "name": "rubel-router",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "keywords": [
     "react",
     "history-api",
@@ -13,7 +13,7 @@
     "example": "example"
   },
   "scripts": {
-    "babel": "./node_modules/.bin/babel ./src/index.js --out-dir ./lib",
+    "babel": "./node_modules/.bin/babel ./src/index.js --out-dir ./lib/index.js",
     "watch": "webpack --watch --progress",
     "build": "webpack --config webpack.config.js --progress",
     "refresh": "rm -rf node_modules/; npm install; npm run build",
