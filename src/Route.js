@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 const history = window.history;
 
-export class Route extends Component {
+class Route extends Component {
   constructor(props) {
     super(props);
 
@@ -31,3 +31,5 @@ export class Route extends Component {
     </React.Fragment>);
   }
 }
+
+export default Route;
