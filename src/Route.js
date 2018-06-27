@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, Fragment} from 'react';
 const history = window.history;
 
 export default class Route extends Component {
@@ -26,8 +26,8 @@ export default class Route extends Component {
   }
 
   render() {
-    return (<React.Fragment>
+    return (<Fragment>
       <a href={this.props.path} onClick={this.handleClick}>{this.props.text}</a>
-    </React.Fragment>);
+    </Fragment>);
   }
 }

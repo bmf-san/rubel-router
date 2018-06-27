@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React from "react";
 import Home from "./Home";
 import Dashboard from "./Dashboard";
 import Profile from "./Profile";
@@ -12,15 +12,15 @@ const PostComponent = (params) => (<Post {...params}/>);
 export const routes = [
   {
     path: "/",
-    action: HomeComponent
+    component: HomeComponent
   }, {
     path: "/dashboard",
-    action: DashboardComponent
+    component: DashboardComponent
   }, {
     path: "/profile",
-    action: ProfileComponent
+    component: ProfileComponent
   }, {
     path: "/post/:id",
-    action: PostComponent
+    component: PostComponent
   }
 ];
