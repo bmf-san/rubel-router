@@ -6,8 +6,8 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      'url': '', // current url
-      'path': '' // current path
+      'url': window.location.href, // current url
+      'path': window.location.pathname // current path
     };
 
     this.handleRoute = this.handleRoute.bind(this);

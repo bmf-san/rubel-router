@@ -5,7 +5,7 @@ const location = window.location;
 export default class Router extends Component {
   handleComponent() {
     const routes = this.props.routes;
-    const locations = this.props.locations.url ? this.props.locations : {url:location.href, path:location.pathname};
+    const locations = this.props.locations;
 
     for (const route of routes) {
       const keys = [];
