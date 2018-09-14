@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Router, Route} from './base';
+import {Router, Route} from 'rubel-router';
 import {routes} from './routes';
 
 class App extends Component {
