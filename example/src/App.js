@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Router, Route} from 'rubel-router';
+import {Router, Route} from './base';
 import {routes} from './routes';
 
 class App extends Component {
@@ -13,9 +13,9 @@ class App extends Component {
     this.handleRoute = this.handleRoute.bind(this);
   }
 
-  handleRoute(info) {
-    // Update url info
-    this.setState(info);
+  handleRoute(locations) {
+    // Update url locations
+    this.setState(locations);
   }
 
   render() {
@@ -38,7 +38,7 @@ class App extends Component {
         </li>
       </ul>
       {/* Router Component */}
-      <Router routes={routes} info={this.state}/>
+      <Router routes={routes} locations={this.state}/>
     </React.Fragment>);
   }
 }
