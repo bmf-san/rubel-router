@@ -11,17 +11,16 @@ export default class Route extends Component {
   handleClick(event) {
     event.preventDefault();
 
-    const info = {
+    const locations = {
       'url': event.target.href,
       'path': event.target.pathname
     };
 
-    this.handlePush(info.url);
-    this.props.handleRoute(info);
+    this.handlePush(locations.url);
+    this.props.handleRoute(locations);
   }
 
   handlePush(url) {
-    // Create a history, and transition to next url
     history.pushState(null, null, url);
   }
 
