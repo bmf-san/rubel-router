@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/rubel-router.svg)](https://badge.fury.io/js/rubel-router)
+
 # Rubel Router
 The simple router package for React with path-to-regexp.
 
